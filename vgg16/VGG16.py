@@ -72,4 +72,4 @@ hist=model.fit(train_generator,
                          callbacks=[CSVLogger(file_name + '.csv')])
 
 #save weights
-model.save(file_name + '.h5')
+model.save(file_name + '.h5') 
